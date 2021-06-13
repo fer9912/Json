@@ -1,0 +1,86 @@
+{
+    "parkings": [
+        {
+            "state": "Disponible",
+            "code": "CODP43F2",
+            "lat": "-34.522750",
+            "lon": "-58.702365"
+        },
+        {
+            "state": "Ocupado",
+            "code": "CODP43F2",
+            "lat": "-34.512742",
+            "lon": "-58.722322"
+        },
+        {
+            "state": "Disponible",
+            "code": "CODP43F2",
+            "lat": "-34.532733",
+            "lon": "-58.712340"
+        },
+        {
+            "state": "Ocupado",
+            "code": "CODP43F2",
+            "lat": "-34.542725",
+            "lon": "-58.732329"
+        }
+    ],
+    "shops": [
+        {
+            "name": "El kiosquito de Jose",
+            "code": "CODSAS3S",
+            "hours": "Lunes a Viernes de 9hs a 20hs",
+            "location": "Juan Maria Gutierrez 1035, Malvinas Argentinas",
+            "lat": "-34.521996",
+            "lon": "-58.701618"
+        }
+    ],
+    "zones": [
+        {
+            "points": [
+                {
+                    "lat": -34.515594,
+                    "lon": -58.705654
+                },
+                {
+                    "lat": -34.523503,
+                    "lon": -58.714062
+                },
+                {
+                    "lat": -34.519177,
+                    "lon": -58.719890
+                },
+                {
+                    "lat": -34.511089,
+                    "lon": -58.711374
+                },
+                {
+                    "lat": -34.514062,
+                    "lon": -58.707909
+                },
+                {
+                    "lat": -34.513824,
+                    "lon": -58.707584
+                }
+            ],
+            "color": "blue"
+        },
+        {
+            "points": [
+                {
+                    "lat": -34.525594,
+                    "lon": -58.725654
+                },
+                {
+                    "lat": -34.523503,
+                    "lon": -58.714062
+                },
+                {
+                    "lat": -34.519177,
+                    "lon": -58.719890
+                }
+            ],
+            "color": "red"
+        }
+    ]
+}
