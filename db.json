@@ -2,20 +2,20 @@
     "parkings": [
         {
             "state": "Disponible",
-            "code": "CODP43F2",
-            "lat": "-34.522750",
+            "code": "CODH3445",
+            "lat": "-34.512750",
             "lon": "-58.702365"
         },
         {
             "state": "Ocupado",
-            "code": "CODP43F2",
+            "code": "CODAS232",
             "lat": "-34.512742",
             "lon": "-58.722322"
         },
         {
             "state": "Disponible",
-            "code": "CODP43F2",
-            "lat": "-34.532733",
+            "code": "CODP43G6",
+            "lat": "-34.542733",
             "lon": "-58.712340"
         },
         {
@@ -23,64 +23,188 @@
             "code": "CODP43F2",
             "lat": "-34.542725",
             "lon": "-58.732329"
+        },
+        {
+            "state": "Ocupado",
+            "code": "CODP43F9",
+            "lat": "-34.525119",
+            "lon": "-58.703664"
+        },
+        {
+            "state": "Disponible",
+            "code": "CODP47F9",
+            "lat": "-34.532804",
+            "lon": "-58.708631"
+        },
+        {
+            "state": "Disponible",
+            "code": "CODP47G9",
+            "lat": "-34.549703",
+            "lon": "-58.7056801"
+        },
+        {
+            "state": "Ocupado",
+            "code": "CODP43F9",
+            "lat": "-34.527281",
+            "lon": "-58.733260"
+        },
+        {
+            "state": "Ocupado",
+            "code": "CODP43V9",
+            "lat": "-34.530276",
+            "lon": "-58.698154"
+        },
+        {
+            "state": "Disponible",
+            "code": "CODP43V7",
+            "lat": "-34.527952",
+            "lon": "-58.718297"
         }
     ],
     "shops": [
         {
-            "name": "El kiosquito de Jose",
+            "name": "'El kiosquito de Jose'",
             "code": "CODSAS3S",
+            "rubro": "Kiosco",
             "hours": "Lunes a Viernes de 9hs a 20hs",
             "location": "Juan Maria Gutierrez 1035, Malvinas Argentinas",
             "lat": "-34.521996",
-            "lon": "-58.701618"
+            "lon": "-58.691618"
+        },
+        {
+            "name": "'El almacen de Dora'",
+            "code": "CODSAS9S",
+            "rubro": "Almacen",
+            "hours": "Lunes a Viernes de 10hs a 19hs",
+            "location": "Darragueira 129, Malvinas Argentinas",
+            "lat": "-34.523120",
+            "lon": "-58.713741"
+        },
+        {
+            "name": "'Dos hermanos'",
+            "code": "CODSA23S",
+            "rubro": "Ferreteria",
+            "hours": "Lunes a Viernes de 9hs a 18hs",
+            "location": "Av. Dr. Ricardo Balbín 299, Malvinas Argentinas",
+            "lat": "-34.534801",
+            "lon": " -58.704217"
+        },
+        {
+            "name": "'YPF'",
+            "code": "CODSAS2R",
+            "rubro": "Estación de servicio",
+            "hours": "Lunes a Viernes de 7hs a 23Hs",
+            "location": " Av. Pres. Arturo Umberto Illia 3873, Malvinas Argentinas",
+            "lat": "-34.532112",
+            "lon": "-58.702697"
+        },
+        {
+            "name": "'Panchos 24HS'",
+            "code": "CODSAS2P",
+            "rubro": "Kiosco y pancheria",
+            "hours": "Lunes a Viernes de 10hs a 23Hs",
+            "location": " España 1098,  Malvinas Argentinas",
+            "lat": "-34.539318",
+            "lon": "-58.714083"
         }
     ],
-    "zones": [
+    "zones": [              
         {
             "points": [
                 {
-                    "lat": -34.515594,
-                    "lon": -58.705654
+                    "lat": -34.526588,
+                    "lon": -58.692765
                 },
                 {
-                    "lat": -34.523503,
-                    "lon": -58.714062
+                    "lat": -34.520489,
+                    "lon": -58.699911
+                },                
+                {
+                    "lat": -34.530937,
+                    "lon": -58.711180
                 },
                 {
-                    "lat": -34.519177,
-                    "lon": -58.719890
-                },
-                {
-                    "lat": -34.511089,
-                    "lon": -58.711374
-                },
-                {
-                    "lat": -34.514062,
-                    "lon": -58.707909
-                },
-                {
-                    "lat": -34.513824,
-                    "lon": -58.707584
+                    "lat": -34.536238,
+                    "lon": -58.703807
                 }
             ],
-            "color": "blue"
+            "color": "green",            
+            "tarifas": "Hora base: $10 <br> Segunda Hora: $20 <br> Cuarta Hora: $25"
         },
         {
             "points": [
                 {
-                    "lat": -34.525594,
-                    "lon": -58.725654
+                    "lat": -34.526588,
+                    "lon": -58.692765
                 },
                 {
-                    "lat": -34.523503,
-                    "lon": -58.714062
+                    "lat": -34.513771,
+                    "lon": -58.676582
+                },                
+                {
+                    "lat": -34.500434,
+                    "lon": -58.692430
                 },
                 {
-                    "lat": -34.519177,
-                    "lon": -58.719890
+                    "lat": -34.506900, 
+                    "lon": -58.715154
                 }
             ],
-            "color": "red"
+            "color": "blue",            
+            "tarifas": "Hora base: $10 <br> Segunda Hora: $12 <br> Cuarta Hora: $20"
+        },
+        {
+            "points": [
+                {
+                    "lat": -34.523051, 
+                    "lon": -58.738259
+                },
+                {
+                    "lat": -34.530564, 
+                    "lon": -58.733549
+                },
+                {
+                    "lat": -34.530937,
+                    "lon": -58.711180
+                },
+                {
+                    "lat": -34.520489,
+                    "lon": -58.699911
+                },               
+                
+                {
+                    "lat": -34.506900, 
+                    "lon": -58.715154
+                }
+            ],
+            "color": "blue",            
+            "tarifas": "Hora base: $10 <br> Segunda Hora: $12 <br> Cuarta Hora: $20"
+        },
+        {
+            "points": [                
+                {
+                    "lat": -34.530564, 
+                    "lon": -58.733549
+                },
+                {
+                    "lat": -34.530937,
+                    "lon": -58.711180
+                },                
+                {
+                    "lat": -34.536238,
+                    "lon": -58.703807
+                },               
+                {
+                    "lat":  -34.551628, 
+                    "lon":  -58.703501
+                },
+                {
+                    "lat":  -34.548506, 
+                    "lon":  -58.733748
+                }
+            ],
+            "color": "blue",            
+            "tarifas": "Hora base: $10 <br> Segunda Hora: $12 <br> Cuarta Hora: $20"
         }
     ]
 }
